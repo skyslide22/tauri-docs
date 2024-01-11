@@ -35,7 +35,8 @@ A promise indicating the success or failure of the operation.
 
 > **relaunch**(): [`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )<`void`\>
 
-Exits the current instance of the app then relaunches it.
+Exits the current instance of the app then relaunches it. <br>
+**Warning** – this feature does not work in dev mode! To test this feature, you would need to run your app in the release mode (like `npm run tauri build --debug`.
 
 **Example**
 
